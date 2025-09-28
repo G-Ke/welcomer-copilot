@@ -3,6 +3,6 @@
 ## Core Packages
 
 - Django
-- Django Rest Framework
-- DRF Spectacular
+- Django Ninja
 - Django Tenants
+- Scalar Docs (Scalar Django Ninja)

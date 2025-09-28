@@ -5,14 +5,15 @@ requires-python = ">=3.13"
 dependencies = [
     "django>=5.2.6",
     "django-environ>=0.12.0",
-    "django-filter>=25.1",
+    "django-ninja>=1.4.3",
     "django-tenants>=3.9.0",
-    "djangorestframework>=3.16.1",
-    "drf-spectacular>=0.28.0",
-    "markdown>=3.9",
+    "scalar-django-ninja",
 ]
 
 [dependency-groups]
 dev = [
     "ruff>=0.13.2",
 ]
+
+[tool.uv.sources]
+scalar-django-ninja = { git = "https://github.com/scalar/scalar.git", subdirectory = "integrations/django-ninja" }
