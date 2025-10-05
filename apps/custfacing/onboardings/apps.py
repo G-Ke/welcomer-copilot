@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class OrgsConfig(AppConfig):
+class OnboardingsConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'apps.internal.orgs'
+    name = 'apps.custfacing.onboardings'
